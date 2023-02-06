@@ -21,6 +21,10 @@
     background-color: var(--ds-off-white);
 }
 
+button {
+    cursor: pointer;
+}
+
 
 
 /* ---------Debug selectors--------- */
@@ -90,8 +94,8 @@ header banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    height: 10%;
+    padding: 10px 0;
+    
 }
 
 nav {
@@ -126,7 +130,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 100%;
 }
 
 #presentation {
@@ -181,10 +185,12 @@ h2 {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 0;
   
-    
+}
 
+.description {
+    padding: 10px;
 }
 
 h3 {
@@ -203,11 +209,14 @@ h3 {
 
 }
 
+/* top-footer */
+
 #top-footer {
     width: 70%;
     margin: auto;
     display: flex; 
-    padding: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--ds-deep-heavenly);
     
 }
 
@@ -218,3 +227,13 @@ h3 {
 .Your_place_to_talk {
     width: 40%;
 }
+
+/* bottom-footer */
+
+#bottom-footer {
+    width: 70%;
+    margin: auto;
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--ds-deep-heavenly); }
