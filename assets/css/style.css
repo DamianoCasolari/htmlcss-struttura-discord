@@ -62,6 +62,17 @@
 
 }
 
+.debug .col {
+    background-color: var(--ds-light-heavenly);
+    border: 1px dashed black;
+    
+}
+.debug .Your_place_to_talk {
+    background-color: var(--ds-deep-heavenly);
+    border: 1px dashed black;
+    
+}
+
 /* ------Header selectors------- */
 
 /* Banner selector */
@@ -181,11 +192,11 @@ h3 {
 }
 
 #info_flexcolumn img {
-    max-width: 50%;
+    max-width: 100%;
 
 }
 
-/* Footer selector */
+/* -------Footer selector-------- */
 
 #app-footer {
     background-color: var(--ds-deep-dark);
@@ -195,7 +206,15 @@ h3 {
 #top-footer {
     width: 70%;
     margin: auto;
-    display: flex;
-    height: 90vh;
+    display: flex; 
+    padding: 15px;
     
+}
+
+.col {
+    width: 15%;
+}
+
+.Your_place_to_talk {
+    width: 40%;
 }
