@@ -26,21 +26,25 @@
 }
 
 .debug nav {
-    height: 10%;
     background-color: green;
 }
 
-.debug banner {
-    height: 80vh;
-}
-
 .debug .presentation-container {
-    height: 90%;
     background-color: yellow;
 }
 
 .debug #presentation {
     background-color: orange;
+}
+
+.debug .info>img {
+    background-color: #1c82d1;
+    border: 2px dashed black;
+}
+
+.debug .description {
+    background-color: #58d11c;
+    border: 2px dashed black;
 }
 
 /* ------Header selectors------- */
@@ -49,10 +53,10 @@
 
 header banner {
     display: block;
-    background-image:url("https://i.pinimg.com/originals/a9/97/51/a99751ac6e165b94030b86c62fa00294.jpg") ;
+    background-image: url("https://i.pinimg.com/originals/a9/97/51/a99751ac6e165b94030b86c62fa00294.jpg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
 }
 
 /* Nav selector  */
@@ -61,6 +65,7 @@ header banner {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    height: 10%;
 }
 
 nav {
@@ -69,18 +74,20 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    height: 20%;
-    
+
+
 }
 
 .logo-discord {
     width: 25%;
-    
+
 }
+
 .log-in {
     width: 25%;
     text-align: end;
 }
+
 .main-menù {
     width: 50%;
     display: flex;
@@ -93,8 +100,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 90%;
 }
+
 #presentation {
     width: 40%;
     text-align: center;
@@ -103,4 +111,31 @@ nav {
 
 h1 {
     padding: 20px;
+}
+
+/* Main Selector  */
+
+.first-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.info {
+    width: 70%;
+    display: flex;
+}
+
+.info>img {
+    width: 60%;
+}
+
+.info>.description {
+    width: 40%;
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px 0;
 }
