@@ -17,6 +17,10 @@
 
 }
 
+.off-white_background {
+    background-color: var(--ds-off-white);
+}
+
 
 
 /* ---------Debug selectors--------- */
@@ -115,7 +119,7 @@ h1 {
 
 /* Main Selector  */
 
-.first-info-container {
+.info-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,3 +143,4 @@ h1 {
 h2 {
     padding: 10px 0;
 }
+
