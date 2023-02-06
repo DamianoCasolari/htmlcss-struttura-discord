@@ -41,7 +41,7 @@
     background-color: orange;
 }
 
-.debug .info>img {
+.debug .info-container img {
     background-color: #1c82d1;
     border: 2px dashed black;
 }
@@ -50,6 +50,13 @@
     background-color: #58d11c;
     border: 2px dashed black;
 }
+
+.debug .info {
+    background-color: #c9103e;
+    border: 2px dashed black;
+    height: 300px;
+}
+
 
 /* ------Header selectors------- */
 
@@ -117,7 +124,7 @@ h1 {
     padding: 20px;
 }
 
-/* Main Selector  */
+/*-------- Main Selector---------  */
 
 .info-container {
     display: flex;
@@ -144,3 +151,23 @@ h2 {
     padding: 10px 0;
 }
 
+/* Last different main containe */
+
+#info_flexcolumn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    max-height: 90vh;
+
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+#info_flexcolumn img {
+    max-width: 50%;
+
+}
