@@ -57,6 +57,10 @@
     height: 300px;
 }
 
+.debug #top-footer {
+    height: 300px;
+
+}
 
 /* ------Header selectors------- */
 
@@ -153,13 +157,22 @@ h2 {
 
 /* Last different main containe */
 
+.last-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #info_flexcolumn {
     display: flex;
+    width: 70%;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     padding: 10px;
-    max-height: 90vh;
+  
+    
 
 }
 
@@ -170,4 +183,19 @@ h3 {
 #info_flexcolumn img {
     max-width: 50%;
 
+}
+
+/* Footer selector */
+
+#app-footer {
+    background-color: var(--ds-deep-dark);
+
+}
+
+#top-footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 90vh;
+    
 }
