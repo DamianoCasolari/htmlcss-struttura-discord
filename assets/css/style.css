@@ -25,11 +25,28 @@ button {
     cursor: pointer;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 10px 0;
 
+}
 
-/* ---------Debug selectors--------- */
+.d_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.debug .nav-container {
+.d_flex_between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+/* #region---------Debug selectors--------- */
+
+.debug .nav_card {
     background-color: blue;
 }
 
@@ -37,7 +54,7 @@ button {
     background-color: green;
 }
 
-.debug .presentation-container {
+.debug .presentation_card {
     background-color: yellow;
 }
 
@@ -45,7 +62,7 @@ button {
     background-color: orange;
 }
 
-.debug .info-container img {
+.debug .info_card img {
     background-color: #1c82d1;
     border: 2px dashed black;
 }
@@ -61,7 +78,7 @@ button {
     height: 300px;
 }
 
-.debug #top-footer {
+.debug .top-footer {
     height: 300px;
 
 }
@@ -69,13 +86,17 @@ button {
 .debug .col {
     background-color: var(--ds-light-heavenly);
     border: 1px dashed black;
-    
+
 }
+
 .debug .Your_place_to_talk {
     background-color: var(--ds-deep-heavenly);
     border: 1px dashed black;
-    
+
 }
+
+/* #endregion---------Debug selectors--------- */
+
 
 /* ------Header selectors------- */
 
@@ -86,36 +107,28 @@ header banner {
     background-image: url("https://i.pinimg.com/originals/a9/97/51/a99751ac6e165b94030b86c62fa00294.jpg");
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    width: 100%;
+   
+
 }
 
 /* Nav selector  */
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0;
-    
-}
 
-nav {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav_card {
     padding: 10px;
-
-
 }
 
 .logo-discord {
     width: 25%;
+    margin: 10px;
 
 }
 
 .log-in {
     width: 25%;
     text-align: end;
+    margin: 10px;
+
 }
 
 .main-menù {
@@ -125,13 +138,6 @@ nav {
     justify-content: space-evenly;
 }
 
-
-.presentation-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
 
 #presentation {
     width: 40%;
@@ -145,12 +151,7 @@ h1 {
 
 /*-------- Main Selector---------  */
 
-.info-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-}
+
 
 .info {
     width: 70%;
@@ -172,11 +173,8 @@ h2 {
 
 /* Last different main containe */
 
-.last-info-container {
-    display: flex;
-    justify-content: center;
+.info_card_card {
     align-items: center;
-    
 }
 
 #info_flexcolumn {
@@ -186,7 +184,7 @@ h2 {
     text-align: center;
     justify-content: center;
     padding: 10px 0;
-  
+
 }
 
 .description {
@@ -211,13 +209,10 @@ h3 {
 
 /* top-footer */
 
-#top-footer {
-    width: 70%;
-    margin: auto;
-    display: flex; 
-    padding: 10px 0;
+.top-footer {
+    display: flex;
     border-bottom: 1px solid var(--ds-deep-heavenly);
-    
+
 }
 
 .col {
@@ -230,10 +225,6 @@ h3 {
 
 /* bottom-footer */
 
-#bottom-footer {
-    width: 70%;
-    margin: auto;
-    display: flex; 
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--ds-deep-heavenly); }
+.bottom-footer {
+    border-bottom: 1px solid var(--ds-deep-heavenly);
+}
