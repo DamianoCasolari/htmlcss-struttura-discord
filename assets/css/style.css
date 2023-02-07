@@ -28,6 +28,7 @@ button {
 .container {
     width: 70%;
     margin: auto;
+    max-width: 1170px;
     padding: 10px 0;
 
 }
@@ -102,20 +103,22 @@ button {
 
 /* Banner selector */
 
-header banner {
+
+
+header .banner {
     display: block;
     background-image: url("https://i.pinimg.com/originals/a9/97/51/a99751ac6e165b94030b86c62fa00294.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
-   
+
 
 }
 
 /* Nav selector  */
 
 .nav_card {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .logo-discord {
@@ -140,9 +143,9 @@ header banner {
 
 
 #presentation {
-    width: 40%;
     text-align: center;
-    padding: 20px;
+    padding: 60px 100px;
+
 }
 
 h1 {
@@ -173,16 +176,9 @@ h2 {
 
 /* Last different main containe */
 
-.info_card_card {
-    align-items: center;
-}
 
 #info_flexcolumn {
-    display: flex;
-    width: 70%;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
     padding: 10px 0;
 
 }
@@ -195,9 +191,12 @@ h3 {
     margin: 30px 0;
 }
 
+.img_card {
+    padding: 10px;
+}
+
 #info_flexcolumn img {
     max-width: 100%;
-
 }
 
 /* -------Footer selector-------- */
